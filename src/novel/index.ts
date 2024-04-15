@@ -1,0 +1,1 @@
+export { NovelEditor } from './Novel';

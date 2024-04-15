@@ -1,0 +1,15 @@
+{
+  "singleQuote": true,
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "printWidth": 120,
+  "semi": true,
+  "experimentalTernaries": true,
+  "overrides": [
+    {
+      "files": ["*.yml", "*.yaml"],
+      "options": { "proseWrap": "always", "singleQuote": false }
+    }
+  ],
+  "plugins": ["prettier-plugin-tailwindcss"]
+}
